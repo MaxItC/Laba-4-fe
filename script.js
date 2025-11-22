@@ -1,4 +1,4 @@
-
+// Завдання 2:
 let img = document.querySelector('img');
 
 document.getElementById("add").addEventListener("click",()=>{
@@ -25,7 +25,7 @@ document.getElementById("delete").addEventListener("click",()=>{
     img.style.display = "none";
 })
 
-
+// Завдання 1:
 document.addEventListener('DOMContentLoaded', function() {
     const variantNumber = 20;
     const elementNumber = (variantNumber % 10) + 4;
@@ -70,4 +70,5 @@ document.addEventListener('DOMContentLoaded', function() {
              firstClick2 = false;
         }
     });
+
 });
