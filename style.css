@@ -1,0 +1,20 @@
+
+#buttons {
+width: 500px;
+display: flex;
+justify-content: space-between;
+}
+
+#add, #increase, #decrease, #delete {
+background-color: rgb(135, 133, 133);
+border: none;
+padding: 10px 20px;
+margin-top: 5px;
+cursor: pointer;
+font-size: 16px;
+border-radius: 5px;
+}
+
+#add:hover, #increase:hover, #decrease:hover, #delete:hover {
+background-color: #464646;
+}
